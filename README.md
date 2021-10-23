@@ -1,0 +1,2 @@
+# CutSpeedCounter
+ノーツカットのスピードを表示するCounters+用カスタムカウンター
