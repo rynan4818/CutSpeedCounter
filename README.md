@@ -1,7 +1,8 @@
 # CutSpeedCounter
 このBeatSaberプラグインは、ノーツカットのスピード[km/h]の平均値を表示する[CountersPlus](https://github.com/Caeden117/CountersPlus)用のカスタムカウンターです。
-
 [BeatSaviorData](https://github.com/Mystogan98/BeatSaviorData)のリザルト画面で表示されるセイバー速度と同じ値になります。
+
+![CutSpeedCounter](https://user-images.githubusercontent.com/14249877/138584495-2aabd12c-4c3a-4d63-9434-197015fdd0ab.png)
 
 # インストール方法
 1. [リリースページ](https://github.com/rynan4818/CutSpeedCounter/releases)から最新のリリースをダウンロードします。
