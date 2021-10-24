@@ -1,0 +1,34 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "CutSpeedCounter",
+  "name": "CutSpeedCounter",
+  "author": "Rynan",
+  "version": "1.0.0",
+  "description": "Add a counter showing the cut speed",
+  "gameVersion": "1.18.1",
+  "dependsOn": {
+    "Counters+": "^2.2.2",
+    "BSIPA": "^4.2.0",
+    "BeatSaberMarkupLanguage": "^1.5.11"
+  },
+  "loadAfter": [
+    "Counters+"
+  ],
+  "features": {
+    "CountersPlus.CustomCounter": {
+      "Name": "Cut Speed Counter",
+      "Description": "Shows the cut speed",
+      "CounterLocation": "CutSpeedCounter.CutSpeedCounter",
+      "ConfigDefaults": {
+        "Enabled": true,
+        "Position": "BelowCombo",
+        "Distance": 0
+      },
+      "BSML": {
+        "Resource": "CutSpeedCounter.settings.bsml",
+        "Host": "CutSpeedCounter.SettingsHandler",
+        "Icon": "CutSpeedCounter.Images.icon.png"
+      }
+    }
+  }
+}
